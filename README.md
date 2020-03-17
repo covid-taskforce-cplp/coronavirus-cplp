@@ -1,4 +1,4 @@
-# Corona Vírus (COVID-19) na CPLP: Angola, Brasil, Cabo Verde, Guiné Equatorial, Guiné-Bissau, Macau, Moçambique, Portugal, São Tomé e Príncipe e Timor-Leste
+# Coronavirus (COVID-19), foco na CPLP
 
 [![Banner: Coronavirus na CPLP](img/banner-cplp-coronavirus.png)](https://coronavirus.etica.ai/)
 
@@ -6,7 +6,7 @@
 
 **EticaAI/coronavirus-cplp: referências de dados oficiais (impacto de saúde e
 econômico), ferramentas de extração/refino de dados, aplicativos e afins sobre
-o Corona Vírus (COVID-19) com foco especial na Comunidade dos Países de Língua
+o Coronavirus (COVID-19) com foco especial na Comunidade dos Países de Língua
 Portuguesa (CPLP)**: Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻,
 Guiné Equatorial 🇬🇶, Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿,
 Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
@@ -42,18 +42,22 @@ TODOs:
         - [WHO Coronavirus disease (COVID-19) advice for the public](#who-coronavirus-disease-covid-19-advice-for-the-public)
     - [GISAID / Nextgen](#gisaid--nextgen)
         - [Genomic epidemiology of novel coronavirus (hCoV-19)](#genomic-epidemiology-of-novel-coronavirus-hcov-19)
+    - [APIFY (proxy to public datasets)](#apify-proxy-to-public-datasets)
+        - [APIs for COVID-19 statistics extracted from sites without an API](#apis-for-covid-19-statistics-extracted-from-sites-without-an-api)
     - [Deslocamento de pessoas e de carga](#deslocamento-de-pessoas-e-de-carga)
         - [Tráfego de aviões pelo Flight Radar24](#tráfego-de-aviões-pelo-flight-radar24)
         - [Tráfego de navios pelo Marine Traffic](#tráfego-de-navios-pelo-marine-traffic)
 - [Angola](#angola)
     - [Ministério da Saúde de Angola](#ministério-da-saúde-de-angola)
 - [Brasil](#brasil)
-    - [Ministério do Brasil](#ministério-do-brasil)
+    - [Ministério da Saúde](#ministério-da-saúde)
         - [Notificação de casos de doença pelo coronavírus 2019 (COVID-19)](#notificação-de-casos-de-doença-pelo-coronavírus-2019-covid-19)
     - [Mercado Financeiro](#mercado-financeiro)
         - [Bovespa](#bovespa)
     - [Iniciativa comunitária](#iniciativa-comunitária)
+        - [alertacorona.com.br](#alertacoronacombr)
         - [belisards/coronabr: Extrator de dados históricos do coronavírus no Brasil](#belisardscoronabr-extrator-de-dados-históricos-do-coronavírus-no-brasil)
+        - [rodrilima/corona-analytic-api: API JSON com dados do mundo e do Brasil (via Ministério da Saúde)](#rodrilimacorona-analytic-api-api-json-com-dados-do-mundo-e-do-brasil-via-ministério-da-saúde)
 - [Cabo Verde](#cabo-verde)
 - [Guiné Equatorial](#guiné-equatorial)
 - [Guiné-Bissau](#guiné-bissau)
@@ -95,6 +99,15 @@ TODOs:
 [![Genomic epidemiology of novel coronavirus (hCoV-19)](img/nextstrain-coronavirus.png)](https://nextstrain.org/ncov)
 - **Interative webapp**: <https://nextstrain.org/ncov>
 
+### APIFY (proxy to public datasets)
+
+#### APIs for COVID-19 statistics extracted from sites without an API
+> _"Apify joins the fight against COVID-19! Most official websites with
+Coronavirus statistics don't have APIs, so they can't be consumed by other apps.
+We're turning these websites into publicly-available APIs."_
+
+- **Datasets**: <https://apify.com/covid-19>
+
 ### Deslocamento de pessoas e de carga
 #### Tráfego de aviões pelo Flight Radar24
 >:warning: Aviso: não oficial.
@@ -113,7 +126,7 @@ TODOs:
 
 ## Brasil
 
-### Ministério do Brasil
+### Ministério da Saúde
 
 #### Notificação de casos de doença pelo coronavírus 2019 (COVID-19)
 [![Notificação de casos de doença pelo coronavírus 2019 (COVID-19)](img/ministerio-da-saude-brasil-plataforma-integrada-coronavirus-2019-covid-19.png)](http://plataforma.saude.gov.br/novocoronavirus/)
@@ -127,10 +140,21 @@ TODOs:
 
 ### Iniciativa comunitária
 
+#### alertacorona.com.br
+> :warning: Aviso: não oficial. :no_entry_sign: Código não open-source.
+
+- **Interface web**: <https://www.alertacorona.com.br/>
+
 #### belisards/coronabr: Extrator de dados históricos do coronavírus no Brasil
 > :warning: Aviso: não oficial.
 
 - Repositório: <https://github.com/belisards/coronabr>
+
+#### rodrilima/corona-analytic-api: API JSON com dados do mundo e do Brasil (via Ministério da Saúde)
+> :warning: Aviso: não oficial.
+
+- **Public API**: <https://api.coronaanalytic.com/>
+- **Repositório**: <https://github.com/rodrilima/corona-analytic-api>
 
 ## Cabo Verde
 
