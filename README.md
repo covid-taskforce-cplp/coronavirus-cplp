@@ -4,16 +4,30 @@
 
 [![GitHub: EticaAI/coronavirus-cplp](img/badges/github.svg)](https://github.com/EticaAI/coronavirus-cplp) [![Website: coronavirus.etica.ai](img/badges/website.svg)](https://coronavirus.etica.ai/)
 
-**EticaAI/coronavirus-cplp: referências de ferramentas, aplicativos, dados
-oficiais e simulações sobre Corona Vírus (COVID-19) com foco especial na
-Comunidade dos Países de Língua Portuguesa (CPLP): Angola, Brasil, Cabo Verde,
-Guiné Equatorial, Guiné-Bissau, Macau, Moçambique, Portugal, São Tomé e Príncipe
-e Timor-Leste.**
+**EticaAI/coronavirus-cplp: referências de dados oficiais (impacto de saúde e
+econômico), ferramentas de extração/refino de dados, aplicativos e afins sobre
+o Corona Vírus (COVID-19) com foco especial na Comunidade dos Países de Língua
+Portuguesa (CPLP)**: Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻,
+Guiné Equatorial 🇬🇶, Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿,
+Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
+
+[Sugestões são bem vindas](CONTRIBUTING.md).
+
+> Aviso: referências não oficiais (e.g. não fornecidas **diretamente** por
+governo local ou pela WHO) estão marcadas com :warning:.
 
 ---
 
 <!--
 Veja também: [pt.etica.ai](https://pt.etica.ai) \| [docs.etica.ai/pt](https://docs.etica.ai/pt) \| _cplp.etica.ai_ \| [periferia.etica.ai](https://periferia.etica.ai) \| [brasil.etica.ai](https://brasil.etica.ai) \| [groups.etica.ai](https://groups.etica.ai/) <sup>Inglês</sup> \| [standards.etica.ai](https://standards.etica.ai) <sup>Inglês</sup>
+
+-->
+
+<!--
+
+TODOs:
+- https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=1
+- https://ourworldindata.org/coronavirus
 
 -->
 
@@ -26,6 +40,8 @@ Veja também: [pt.etica.ai](https://pt.etica.ai) \| [docs.etica.ai/pt](https://d
         - [WHO Coronavirus COVID-19 Dashboard](#who-coronavirus-covid-19-dashboard)
         - [WHO Health Emergency Dashboard](#who-health-emergency-dashboard)
         - [WHO Coronavirus disease (COVID-19) advice for the public](#who-coronavirus-disease-covid-19-advice-for-the-public)
+    - [GISAID / Nextgen](#gisaid--nextgen)
+        - [Genomic epidemiology of novel coronavirus (hCoV-19)](#genomic-epidemiology-of-novel-coronavirus-hcov-19)
     - [Deslocamento de pessoas e de carga](#deslocamento-de-pessoas-e-de-carga)
         - [Tráfego de aviões pelo Flight Radar24](#tráfego-de-aviões-pelo-flight-radar24)
         - [Tráfego de navios pelo Marine Traffic](#tráfego-de-navios-pelo-marine-traffic)
@@ -73,22 +89,24 @@ Veja também: [pt.etica.ai](https://pt.etica.ai) \| [docs.etica.ai/pt](https://d
 #### WHO Coronavirus disease (COVID-19) advice for the public
 - <https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public>
 
+### GISAID / Nextgen
+
+#### Genomic epidemiology of novel coronavirus (hCoV-19)
+[![Genomic epidemiology of novel coronavirus (hCoV-19)](img/nextstrain-coronavirus.png)](https://nextstrain.org/ncov)
+- **Interative webapp**: <https://nextstrain.org/ncov>
+
 ### Deslocamento de pessoas e de carga
 #### Tráfego de aviões pelo Flight Radar24
-> ⚠️ Aviso: não oficial.
+>:warning: Aviso: não oficial.
 
 - <https://www.flightradar24.com/0,0/3>
 
 #### Tráfego de navios pelo Marine Traffic
-> ⚠️ Aviso: não oficial.
+> :warning: Aviso: não oficial.
 
 - <https://www.marinetraffic.com/pt/ais/home/centerx:15.4/centery:-7.9/zoom:3>
 
 ## Angola
-
-Sem informações focadas neste momento. Para dados em tempo real veja
-[Global](#global). Pode obter informações oficiais em português dos demais
-países da CPLP.
 
 ### Ministério da Saúde de Angola
 - Site oficial: <http://www.minsa.gov.ao/>
@@ -110,6 +128,8 @@ países da CPLP.
 ### Iniciativa comunitária
 
 #### belisards/coronabr: Extrator de dados históricos do coronavírus no Brasil
+> :warning: Aviso: não oficial.
+
 - Repositório: <https://github.com/belisards/coronabr>
 
 ## Cabo Verde
@@ -142,7 +162,7 @@ países da CPLP.
 ### Iniciativa comunitária
 
 #### dakula009/China_CoronaVirus_Data_Miner
-> ⚠️ Aviso: não oficial.
+> :warning: Aviso: não oficial.
 
 - **Repositório**: <https://github.com/dakula009/China_CoronaVirus_Data_Miner>
 
@@ -171,7 +191,7 @@ países da CPLP.
 ### Iniciativa comunitária
 
 #### aperaltasantos/covid_pt: COVID-19 em Portugal
-> ⚠️ Aviso: não oficial.
+> :warning: Aviso: não oficial.
 
 [![aperaltasantos/covid_pt: COVID-19 em Portugal](img/aperaltasantos-covid-19-em-portugal.png)](https://aperaltasantos.github.io/covid_pt/)
 
