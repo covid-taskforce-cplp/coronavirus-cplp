@@ -26,7 +26,7 @@ Veja também: [pt.etica.ai](https://pt.etica.ai) \| [docs.etica.ai/pt](https://d
 
 TODOs:
 - https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=1
-- https://ourworldindata.org/coronavirus
+- https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it
 
 -->
 
@@ -42,6 +42,8 @@ TODOs:
             - [WHO Coronavirus disease (COVID-19) advice for the public](#who-coronavirus-disease-covid-19-advice-for-the-public)
         - [GISAID / Nextgen](#gisaid--nextgen)
             - [Genomic epidemiology of novel coronavirus (hCoV-19)](#genomic-epidemiology-of-novel-coronavirus-hcov-19)
+        - [Our World in Data](#our-world-in-data)
+            - [Coronavirus Source Data – WHO Situation Reports](#coronavirus-source-data--who-situation-reports)
         - [APIFY (proxy to public datasets)](#apify-proxy-to-public-datasets)
             - [APIs for COVID-19 statistics extracted from sites without an API](#apis-for-covid-19-statistics-extracted-from-sites-without-an-api)
         - [Deslocamento de pessoas e de carga](#deslocamento-de-pessoas-e-de-carga)
@@ -88,6 +90,11 @@ TODOs:
 ## Global
 
 ### World Health Organization (WHO)
+
+<!--
+https://www.who.int/data/gho/info/gho-odata-api
+-->
+
 #### WHO Coronavirus COVID-19 Dashboard
 [![WHO Coronavirus COVID-19 Dashboard](img/who-coronavirus-covid-19-dashboard.png)](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
 - Site: <https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd>
@@ -105,6 +112,10 @@ TODOs:
 #### Genomic epidemiology of novel coronavirus (hCoV-19)
 [![Genomic epidemiology of novel coronavirus (hCoV-19)](img/nextstrain-coronavirus.png)](https://nextstrain.org/ncov)
 - **Interative webapp**: <https://nextstrain.org/ncov>
+
+### Our World in Data
+#### Coronavirus Source Data – WHO Situation Reports
+- **Datasets ready to parse**: <https://ourworldindata.org/coronavirus-source-data>
 
 ### APIFY (proxy to public datasets)
 
