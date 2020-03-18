@@ -16,7 +16,6 @@ Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
 > Aviso: referências não oficiais (e.g. não fornecidas **diretamente** por
 governo local ou pela WHO) estão marcadas com :warning:.
 
----
 
 <!--
 Veja também: [pt.etica.ai](https://pt.etica.ai) \| [docs.etica.ai/pt](https://docs.etica.ai/pt) \| _cplp.etica.ai_ \| [periferia.etica.ai](https://periferia.etica.ai) \| [brasil.etica.ai](https://brasil.etica.ai) \| [groups.etica.ai](https://groups.etica.ai/) <sup>Inglês</sup> \| [standards.etica.ai](https://standards.etica.ai) <sup>Inglês</sup>
@@ -31,52 +30,60 @@ TODOs:
 
 -->
 
-# Índice de conteúdo
+---
 
-<!-- TOC depthFrom:2 depthTo:5 -->
+<!-- TOC depthFrom:1 depthTo:5 -->
 
-- [Global](#global)
-    - [World Health Organization (WHO)](#world-health-organization-who)
-        - [WHO Coronavirus COVID-19 Dashboard](#who-coronavirus-covid-19-dashboard)
-        - [WHO Health Emergency Dashboard](#who-health-emergency-dashboard)
-        - [WHO Coronavirus disease (COVID-19) advice for the public](#who-coronavirus-disease-covid-19-advice-for-the-public)
-    - [GISAID / Nextgen](#gisaid--nextgen)
-        - [Genomic epidemiology of novel coronavirus (hCoV-19)](#genomic-epidemiology-of-novel-coronavirus-hcov-19)
-    - [APIFY (proxy to public datasets)](#apify-proxy-to-public-datasets)
-        - [APIs for COVID-19 statistics extracted from sites without an API](#apis-for-covid-19-statistics-extracted-from-sites-without-an-api)
-    - [Deslocamento de pessoas e de carga](#deslocamento-de-pessoas-e-de-carga)
-        - [Tráfego de aviões pelo Flight Radar24](#tráfego-de-aviões-pelo-flight-radar24)
-        - [Tráfego de navios pelo Marine Traffic](#tráfego-de-navios-pelo-marine-traffic)
-- [Angola](#angola)
-    - [Ministério da Saúde de Angola](#ministério-da-saúde-de-angola)
-- [Brasil](#brasil)
-    - [Ministério da Saúde](#ministério-da-saúde)
-        - [Notificação de casos de doença pelo coronavírus 2019 (COVID-19)](#notificação-de-casos-de-doença-pelo-coronavírus-2019-covid-19)
-    - [Mercado Financeiro](#mercado-financeiro)
-        - [Bovespa](#bovespa)
-    - [Iniciativa comunitária](#iniciativa-comunitária)
-        - [alertacorona.com.br](#alertacoronacombr)
-        - [belisards/coronabr: Extrator de dados históricos do coronavírus no Brasil](#belisardscoronabr-extrator-de-dados-históricos-do-coronavírus-no-brasil)
-        - [rodrilima/corona-analytic-api: API JSON com dados do mundo e do Brasil (via Ministério da Saúde)](#rodrilimacorona-analytic-api-api-json-com-dados-do-mundo-e-do-brasil-via-ministério-da-saúde)
-- [Cabo Verde](#cabo-verde)
-- [Guiné Equatorial](#guiné-equatorial)
-- [Guiné-Bissau](#guiné-bissau)
-- [Macau](#macau)
-    - [Shenzhen Stock Exchange](#shenzhen-stock-exchange)
-    - [Iniciativa comunitária](#iniciativa-comunitária-1)
-        - [dakula009/China_CoronaVirus_Data_Miner](#dakula009china_coronavirus_data_miner)
-- [Moçambique](#moçambique)
-    - [Ministério da Saúde de Moçambique](#ministério-da-saúde-de-moçambique)
-- [Portugal](#portugal)
-    - [Serviço Nacional de Saúde de Portugal](#serviço-nacional-de-saúde-de-portugal)
-        - [Ponto de Situação Atual em Portugal](#ponto-de-situação-atual-em-portugal)
-        - [Materiais de divulgação para população](#materiais-de-divulgação-para-população)
-    - [Iniciativa comunitária](#iniciativa-comunitária-2)
-        - [aperaltasantos/covid_pt: COVID-19 em Portugal](#aperaltasantoscovid_pt-covid-19-em-portugal)
-- [São Tomé e Príncipe](#são-tomé-e-príncipe)
-- [Timor-Leste](#timor-leste)
+- [Coronavirus (COVID-19), foco na CPLP](#coronavirus-covid-19-foco-na-cplp)
+    - [Global](#global)
+        - [World Health Organization (WHO)](#world-health-organization-who)
+            - [WHO Coronavirus COVID-19 Dashboard](#who-coronavirus-covid-19-dashboard)
+            - [WHO Health Emergency Dashboard](#who-health-emergency-dashboard)
+            - [WHO Coronavirus disease (COVID-19) advice for the public](#who-coronavirus-disease-covid-19-advice-for-the-public)
+        - [GISAID / Nextgen](#gisaid--nextgen)
+            - [Genomic epidemiology of novel coronavirus (hCoV-19)](#genomic-epidemiology-of-novel-coronavirus-hcov-19)
+        - [APIFY (proxy to public datasets)](#apify-proxy-to-public-datasets)
+            - [APIs for COVID-19 statistics extracted from sites without an API](#apis-for-covid-19-statistics-extracted-from-sites-without-an-api)
+        - [Deslocamento de pessoas e de carga](#deslocamento-de-pessoas-e-de-carga)
+            - [Tráfego de aviões pelo Flight Radar24](#tráfego-de-aviões-pelo-flight-radar24)
+            - [Tráfego de navios pelo Marine Traffic](#tráfego-de-navios-pelo-marine-traffic)
+    - [Angola](#angola)
+        - [Ministério da Saúde de Angola](#ministério-da-saúde-de-angola)
+    - [Brasil](#brasil)
+        - [Ministério da Saúde](#ministério-da-saúde)
+            - [Notificação de casos de doença pelo coronavírus 2019 (COVID-19)](#notificação-de-casos-de-doença-pelo-coronavírus-2019-covid-19)
+        - [Mercado Financeiro](#mercado-financeiro)
+            - [Bovespa](#bovespa)
+        - [Iniciativa comunitária](#iniciativa-comunitária)
+            - [alertacorona.com.br](#alertacoronacombr)
+            - [belisards/coronabr: Extrator de dados históricos do coronavírus no Brasil](#belisardscoronabr-extrator-de-dados-históricos-do-coronavírus-no-brasil)
+            - [rodrilima/corona-analytic-api: API JSON com dados do mundo e do Brasil (via Ministério da Saúde)](#rodrilimacorona-analytic-api-api-json-com-dados-do-mundo-e-do-brasil-via-ministério-da-saúde)
+    - [Cabo Verde](#cabo-verde)
+        - [Ministério da Saúde e da Segurança Social de Cabo Verde](#ministério-da-saúde-e-da-segurança-social-de-cabo-verde)
+    - [Guiné Equatorial](#guiné-equatorial)
+    - [Guiné-Bissau](#guiné-bissau)
+    - [Macau](#macau)
+        - [Shenzhen Stock Exchange](#shenzhen-stock-exchange)
+        - [Iniciativa comunitária](#iniciativa-comunitária-1)
+            - [dakula009/China_CoronaVirus_Data_Miner](#dakula009china_coronavirus_data_miner)
+    - [Moçambique](#moçambique)
+        - [Ministério da Saúde de Moçambique](#ministério-da-saúde-de-moçambique)
+    - [Portugal](#portugal)
+        - [Serviço Nacional de Saúde de Portugal](#serviço-nacional-de-saúde-de-portugal)
+            - [Ponto de Situação Atual em Portugal](#ponto-de-situação-atual-em-portugal)
+            - [Materiais de divulgação para população](#materiais-de-divulgação-para-população)
+        - [Iniciativa comunitária](#iniciativa-comunitária-2)
+            - [aperaltasantos/covid_pt: COVID-19 em Portugal](#aperaltasantoscovid_pt-covid-19-em-portugal)
+    - [São Tomé e Príncipe](#são-tomé-e-príncipe)
+    - [Timor-Leste](#timor-leste)
+- [Busca por conteúdo produzido por pessoas a respeito de Coronavirus (COVID-19)](#busca-por-conteúdo-produzido-por-pessoas-a-respeito-de-coronavirus-covid-19)
+    - [Hashtags](#hashtags)
+- [COVID19NasFavelas](#covid19nasfavelas)
+- [Licença](#licença)
 
 <!-- /TOC -->
+
+---
 
 ## Global
 
@@ -158,9 +165,12 @@ We're turning these websites into publicly-available APIs."_
 
 ## Cabo Verde
 
-Sem informações focadas neste momento. Para dados em tempo real veja
+Sem mais informações neste momento. Para dados em tempo real veja
 [Global](#global). Pode obter informações oficiais em português dos demais
 países da CPLP.
+
+### Ministério da Saúde e da Segurança Social de Cabo Verde
+- **Site**: <https://www.minsaude.gov.cv/>
 
 ## Guiné Equatorial
 
@@ -176,7 +186,7 @@ países da CPLP.
 
 ## Macau
 
-Sem informações focadas neste momento. Para dados em tempo real veja
+Sem mais informações neste momento. Para dados em tempo real veja
 [Global](#global). Pode obter informações oficiais em português dos demais
 países da CPLP.
 
@@ -192,7 +202,7 @@ países da CPLP.
 
 ## Moçambique
 
-Sem informações focadas neste momento. Para dados em tempo real veja
+Sem mais informações neste momento. Para dados em tempo real veja
 [Global](#global). Pode obter informações oficiais em português dos demais
 países da CPLP.
 
@@ -233,6 +243,21 @@ países da CPLP.
 Sem informações focadas neste momento. Para dados em tempo real veja
 [Global](#global). Pode obter informações oficiais em português dos demais
 países da CPLP.
+
+# Busca por conteúdo produzido por pessoas a respeito de Coronavirus (COVID-19)
+
+## Hashtags
+
+> Nota: Hashtags ainda é um rascunho. Em breve mais referências
+
+| Termo X Rede | Facebook | GitHub | Instagram | LinkedIn | Medium | Reddit | Twitter | Youtube |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| coronavirus | [coronavirus](https://www.facebook.com/search/posts/?q=%23coronavirus) | [coronavirus](https://github.com/topics/coronavirus) | [coronavirus](https://www.instagram.com/explore/tags/coronavirus) | [coronavirus](https://www.linkedin.com/search/results/content/?keywords=%23coronavirus) | [coronavirus](https://medium.com/search?q=%23coronavirus) | [coronavirus](https://www.reddit.com/search?q=%23coronavirus) | [coronavirus](https://twitter.com/search?q=%23coronavirus) | [coronavirus](https://www.youtube.com/results?search_query=%23coronavirus) |
+
+
+<!--
+#COVID19NasFavelas
+-->
 
 <!--
 
