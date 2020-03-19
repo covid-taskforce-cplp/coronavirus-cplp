@@ -96,6 +96,7 @@ TODOs:
     - [São Tomé e Príncipe](#são-tomé-e-príncipe)
     - [Timor-Leste](#timor-leste)
 - [Busca por conteúdo produzido por pessoas a respeito de Coronavirus (COVID-19)](#busca-por-conteúdo-produzido-por-pessoas-a-respeito-de-coronavirus-covid-19)
+    - [GitHub Topics](#github-topics)
     - [Hashtags](#hashtags)
 - [Licença](#licença)
 
@@ -273,6 +274,23 @@ países da CPLP.
 
 # Busca por conteúdo produzido por pessoas a respeito de Coronavirus (COVID-19)
 
+## GitHub Topics
+O GitHub (local muito popular para compartilhar projetos de software de código
+aberto) permite catalogar projetos usando
+[GitHub Topics](https://github.com/topics/). A tabela a seguir tem links
+clicáveis sobre tópicos sugeridos
+
+
+
+| Tema X País | Angola | Brasil | Cabo Verde | Guiné Equatorial | Guiné-Bissau | Macau | Moçambique | Portugal | São Tomé e Príncipe | Timor-Leste |
+| ---| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| [covid-19](https://github.com/topics/covid-19) | <span style="white-space:nowrap">[covid-19-angola](https://github.com/topics/covid-19-angola)</span> | <span style="white-space:nowrap">[covid-19-brazil](https://github.com/topics/covid-19-brazil)</span> | <span style="white-space:nowrap">[covid-19-cape-verde](https://github.com/topics/covid-19-cape-verde)</span> | <span style="white-space:nowrap">[covid-19-equatorial-guinea](https://github.com/topics/covid-19-equatorial-guinea)</span> | <span style="white-space:nowrap">[covid-19-guinea-bissau](https://github.com/topics/covid-19-guinea-bissau)</span> | <span style="white-space:nowrap">[covid-19-macau](https://github.com/topics/covid-19-macau)</span> | <span style="white-space:nowrap">[covid-19-mozambique](https://github.com/topics/covid-19-mozambique)</span> | <span style="white-space:nowrap">[covid-19-portugal](https://github.com/topics/covid-19-portugal)</span> | <span style="white-space:nowrap">[covid-19-sao-tome-and-principe](https://github.com/topics/covid-19-sao-tome-and-principe)</span> | <span style="white-space:nowrap">[covid-19-east-timor](https://github.com/topics/covid-19-east-timor)</span> |
+
+> Nota: antes do inicio da documentação destas sugestões de GitHub Topics para
+usar alguns projetos já estavam usando o termo em inglês. Por isto decidimos
+manter.
+
+
 ## Hashtags
 
 > Nota: Hashtags ainda é um rascunho. Em breve mais referências
@@ -280,7 +298,6 @@ países da CPLP.
 | Termo X Rede | Facebook | GitHub | Instagram | LinkedIn | Medium | Reddit | Twitter | Youtube |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | coronavirus | [coronavirus](https://www.facebook.com/search/posts/?q=%23coronavirus) | [coronavirus](https://github.com/topics/coronavirus) | [coronavirus](https://www.instagram.com/explore/tags/coronavirus) | [coronavirus](https://www.linkedin.com/search/results/content/?keywords=%23coronavirus) | [coronavirus](https://medium.com/search?q=%23coronavirus) | [coronavirus](https://www.reddit.com/search?q=%23coronavirus) | [coronavirus](https://twitter.com/search?q=%23coronavirus) | [coronavirus](https://www.youtube.com/results?search_query=%23coronavirus) |
-
 
 <!--
 -- #COVID19NasFavelas
