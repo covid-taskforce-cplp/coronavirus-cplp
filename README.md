@@ -4,17 +4,28 @@
 
 [![GitHub: EticaAI/coronavirus-cplp](img/badges/github.svg)](https://github.com/EticaAI/coronavirus-cplp) [![Website: coronavirus.etica.ai](img/badges/website.svg)](https://coronavirus.etica.ai/)
 
-**EticaAI/coronavirus-cplp: referências de dados oficiais (impacto de saúde e
+**[trabalho-em-progresso]
+EticaAI/coronavirus-cplp: referências de dados oficiais (impacto de saúde e
 econômico), ferramentas de extração/refino de dados, aplicativos e afins sobre
 o Coronavirus (COVID-19) com foco especial na Comunidade dos Países de Língua
 Portuguesa (CPLP)**: Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻,
 Guiné Equatorial 🇬🇶, Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿,
 Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
 
+> **Grupo: Força-tarefa em TI: Coronavirus COVID-19**
+>
+> Recomendamos que pessoas desenvolvedoras interessadas no tema também solicitem
+participação no grupo de Facebook em <https://www.facebook.com/groups/534884270489894/>
+tanto para ver material não publicado aqui ainda, como para discutir e sugerir
+outras referências.
+
+<!--
 [Sugestões são bem vindas](CONTRIBUTING.md).
 
 > Aviso: referências não oficiais (e.g. não fornecidas **diretamente** por
 governo local ou pela WHO) estão marcadas com :warning:.
+
+-->
 
 
 <!--
@@ -25,9 +36,15 @@ Veja também: [pt.etica.ai](https://pt.etica.ai) \| [docs.etica.ai/pt](https://d
 <!--
 
 TODOs:
+- https://thevirustracker.com/api
+- https://github.com/devarthurribeiro/covid19-brazil-api
+- https://github.com/NovelCOVID/API
 - https://nextstrain.org/narratives/ncov/sit-rep/pt/2020-03-13?n=1
 - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it
+- https://github.com/gorpo/COVID-19 / https://www.facebook.com/groups/pythonbr/permalink/1155345034797234/
+- https://github.com/gabrielcesar/covid / https://www.facebook.com/groups/desenvolvimentowebbrasil/permalink/2750191275066915/
 
+- https://github.com/lifen-labs/covid / https://www.youtube.com/watch?v=wwDJNR6SKmI / https://www.lifen.fr/covid19
 -->
 
 ---
@@ -80,7 +97,6 @@ TODOs:
     - [Timor-Leste](#timor-leste)
 - [Busca por conteúdo produzido por pessoas a respeito de Coronavirus (COVID-19)](#busca-por-conteúdo-produzido-por-pessoas-a-respeito-de-coronavirus-covid-19)
     - [Hashtags](#hashtags)
-- [COVID19NasFavelas](#covid19nasfavelas)
 - [Licença](#licença)
 
 <!-- /TOC -->
@@ -267,7 +283,7 @@ países da CPLP.
 
 
 <!--
-#COVID19NasFavelas
+-- #COVID19NasFavelas
 -->
 
 <!--

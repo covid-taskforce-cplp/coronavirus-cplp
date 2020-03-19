@@ -1,3 +1,5 @@
 ## See https://help.github.com/en/articles/emoji-on-github-pages
 plugins:
  - jemoji
+
+include: CONTRIBUTING.md
