@@ -165,7 +165,7 @@ We're turning these websites into publicly-available APIs."_
 
 #### Notificação de casos de doença pelo coronavírus 2019 (COVID-19)
 [![Notificação de casos de doença pelo coronavírus 2019 (COVID-19)](img/ministerio-da-saude-brasil-plataforma-integrada-coronavirus-2019-covid-19.png)](http://plataforma.saude.gov.br/novocoronavirus/)
-- Site: <http://plataforma.saude.gov.br/novocoronavirus/>
+- Site: <https://covid.saude.gov.br/>
 
 ### Mercado Financeiro
 
