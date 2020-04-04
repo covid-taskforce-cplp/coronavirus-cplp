@@ -12,13 +12,6 @@ Portuguesa (CPLP)**: Angola 🇦🇴, Brasil 🇧🇷, Cabo Verde 🇨🇻,
 Guiné Equatorial 🇬🇶, Guiné-Bissau 🇬🇼, Macau 🇲🇴, Moçambique 🇲🇿,
 Portugal 🇵🇹, São Tomé e Príncipe 🇵🇹 e Timor-Leste 🇹🇱.
 
-> **Grupo: Força-tarefa em TI: Coronavirus COVID-19**
->
-> Recomendamos que pessoas desenvolvedoras interessadas no tema também solicitem
-participação no grupo de Facebook em <https://www.facebook.com/groups/534884270489894/>
-tanto para ver material não publicado aqui ainda, como para discutir e sugerir
-outras referências.
-
 <!--
 [Sugestões são bem vindas](CONTRIBUTING.md).
 
